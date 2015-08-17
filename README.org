@@ -1,5 +1,5 @@
 
-- Day One Website [http://dayoneapp.com](http://dayoneapp.com)
+- Day One Website http://dayoneapp.com
 
 - Day One Command Line Examples
 
