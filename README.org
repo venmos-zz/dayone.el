@@ -1,0 +1,34 @@
+
+- Day One Website [http://dayoneapp.com](http://dayoneapp.com)
+
+- Day One Command Line Examples
+
+#+begin_src
+$ ./dayone new
+Waits for input from stdin then creates a new entry in the default journal
+
+$ echo "an entry from yesterday" | ./dayone -d="yesterday" new
+Creates a new entry using yesterday ’ s date with the specified text
+
+$ ./dayone -d="25/03/2011 5:30PM" -s=true new < ~/Desktop/note.txt
+Creates a starred entry using the contents of note.txt
+
+$ echo "an entry in my other journal" | ./dayone -j=~/Documents/WorkJournal.dayone new
+Creates an entry in a journal other than the default
+#+end_src
+
+- One Day CLI MAN [http://dayoneapp.com/tools/cli-man/](http://dayoneapp.com/tools/cli-man/)
+- Day One Command Line [http://dayoneapp.com/downloads/dayone-cli.pkg](http://dayoneapp.com/downloads/dayone-cli.pkg)
+
+
+- dayone-create-new-entry
+
+新建一条日志
+
+- dayone-save-and-kill-buffer
+
+保存日志并关闭 Buffer
+
+- dayone-destroy-buffer
+
+删除已输入的日志并关闭 Buffer
